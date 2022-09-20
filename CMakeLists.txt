@@ -5,7 +5,7 @@ cmake_minimum_required(VERSION 3.0)
 project(HelloWorld)
 
 # Add all the source files needed to build the executable
-add_executable(HelloWorld sources/main.cpp)
+add_executable(HelloWorld sources/main.cpp sources/HelloWorld.cpp)
 
 # Locate GTest
 find_package(GTest REQUIRED)

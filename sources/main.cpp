@@ -2,16 +2,13 @@
    Author: Corentin ROZET
    Create Time: 2022-09-20 12:07:24
    Modified by: Corentin ROZET
-   Modified time: 2022-09-20 15:21:12
+   Modified time: 2022-09-20 16:17:04
    Description: Hello World!
 */
 
 #include <iostream>
 
-void HelloWorld(void)
-{
-    std::cout << "Hello World!" << std::endl;
-}
+void HelloWorld(void);
 
 int main()
 {
